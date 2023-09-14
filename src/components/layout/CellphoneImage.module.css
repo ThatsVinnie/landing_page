@@ -1,0 +1,27 @@
+.container{
+    display: relative;
+    width: 40%;
+    opacity: 1;
+}
+.container div{
+    width: 75%;
+    height: 45vh;
+    border-radius: 50em;
+    background-color: white;
+}
+
+.container img.cell01{
+    width: 15%;
+    position: absolute;
+    height: auto;
+    margin-top: -28%;
+    margin-left: 9%;
+}
+
+.container img.cell02{
+    width: 13%;
+    position: absolute;
+    height: auto;
+    margin-top: -24%;
+    margin-left: 5%;
+}

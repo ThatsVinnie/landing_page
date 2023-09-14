@@ -1,32 +1,19 @@
+import Container from "./components/layout/Container";
+import Footer from "./components/layout/Footer";
+import Header from "./components/layout/Header";
+import LandingPage from "./components/pages/LandingPage";
+import CellphoneImage from "./components/layout/CellphoneImage";
 
 function App() {
   return (
-    <div className="container">
-      <header>
-        <nav>
-          <span>Imagem</span>
-        </nav>
-      </header>
-      <main className="container">
-        <section>
-          <h1>Lorem</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing
-             elit. Dicta ab voluptatum, repellat dolores vero, earum accusamus maxime esse explicabo voluptates, 
-             animi necessitatibus unde eligendi culpa dolorum. 
-             Qui corporis dicta nisi?</p>
-          <form>
-            <input type="text"></input>
-            <button>Get early access</button>
-          </form>
-        </section>
-        <div>
-          <span>
-
-          </span>
-        </div>
-      </main>
-      <footer>footer</footer>
-    </div>
+    <>
+      <Header></Header>
+      <Container> 
+        <LandingPage/>
+        <CellphoneImage></CellphoneImage>
+      </Container>
+      <Footer/>
+    </>
   );
 }
 
