@@ -4,3 +4,7 @@
   box-sizing: border-box;
   overflow: hidden;
 }
+
+body{
+  background-image: linear-gradient(to right, #191D88 , #1450A3 , #337CCF , #ffe098 99%);
+}

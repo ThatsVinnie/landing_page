@@ -11,11 +11,15 @@
 }
 
 .container img.cell01{
-    width: 15%;
+    width: 16%;
     position: absolute;
     height: auto;
     margin-top: -28%;
     margin-left: 9%;
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    opacity: 0;
+    animation-name: fadeInUp;
 }
 
 .container img.cell02{
@@ -24,4 +28,31 @@
     height: auto;
     margin-top: -24%;
     margin-left: 5%;
+    
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    opacity: 0;
+    animation-name: fadeInUp;
 }
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+  
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+  }
+  
+  @-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+  
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+  }

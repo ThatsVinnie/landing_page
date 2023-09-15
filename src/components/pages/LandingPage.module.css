@@ -12,15 +12,63 @@
     justify-content: space-around;
     align-items: flex-start;
     font-family: 'Unbounded', sans-serif;
+    background-color: transparent;
+    animation-duration: 2.3s;
+    animation-fill-mode: both;
+    opacity: 0;
+    animation-name: fadeInUp; 
 }
 
 .landing_container h2{
     font-weight: 200;
     font-size: 3em;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    opacity: 0;
+    animation-name: fadeInUp;
 }
 
 .landing_container h1{
     font-weight: 800;
     font-size: 4em;
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    opacity: 0;
+    animation-name: fadeInUp;
 }
 
+.landing_container p{
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    opacity: 0;
+    animation-name: fadeInUp;   
+}
+
+.landing_container form{
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    opacity: 0;
+    animation-name: fadeInUp;   
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+  
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+  }
+  
+  @-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+  
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+  }
