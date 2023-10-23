@@ -5,6 +5,7 @@
     width: auto;
     height: 100px;
     padding: 3em;
+    gap: 1em;
     margin: 0;
     background-image: linear-gradient(to right, #191D88 , #1450A3 , #337CCF , #ffe098 99%);
     justify-content: flex-start;
@@ -13,6 +14,18 @@
 
 
 .header span{
+    display: flex;
+    cursor: pointer;
+    gap: 0.4em;
+}
+
+
+.header img{
+    width: 50px;
+    height: 60px;
+}
+
+.title{
     font-family: 'Unbounded', sans-serif;
     color: #FFC436;
     font-weight: 700;
@@ -20,11 +33,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
     cursor: pointer;
-}
-
-
-.header img{
-    width: 80px;
-    height: 80px;
 }

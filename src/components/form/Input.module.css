@@ -9,9 +9,18 @@
     padding: 0.7em;
     background-color: transparent;
     color: #FFC436;
+    -webkit-box-shadow: 0px 7px 10px -3px rgba(22, 22, 22, 0.75);
+    -moz-box-shadow: 0px 7px 10px -3px rgba(22, 22, 22, 0.75);
+    box-shadow: 0px 7px 10px -3px rgba(22, 22, 22, 0.75);
+    transition: 0.2s;
 }
-
 
 .input:focus{
     outline: none;
+}
+
+.input:hover{
+    -webkit-box-shadow: 0px 7px 20px -3px rgba(22, 22, 22, 0.75);
+    -moz-box-shadow: 0px 7px 20px -3px rgba(22, 22, 22, 0.75);
+    box-shadow: 0px 7px 20px -3px rgba(22, 22, 22, 0.75);
 }

@@ -45,6 +45,10 @@
 }
 
 .landing_container form{
+    width: 800px;
+    height: 80px;
+    display: flex;
+    align-items: center;
     animation-duration: 2.5s;
     animation-fill-mode: both;
     opacity: 0;
