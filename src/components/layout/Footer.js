@@ -4,7 +4,7 @@ import Waves from './../../img/wave.svg'
 function Footer(){
     return(
         <footer className={styles.footer}>
-            <span>&copy; 2023 GymTracker. All Rights Reserved</span>
+            <span>&copy; 2023 ThatsVinnie. All Rights Reserved</span>
         </footer>
         
     )

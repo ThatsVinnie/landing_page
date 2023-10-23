@@ -3,18 +3,18 @@
 .btn{
     font-family: 'Unbounded', sans-serif;
     border-style: none;
-    border-radius: 1em;
+    width: 180px;
+    height: 50px;
+    border-radius: 1.2em;
     font-weight: 600;
     background-color: #FFC436;
-    width: 170px;
-    height: 2.5em;
     margin-left: 1em;
     color:#2242aa;
     cursor: pointer;
     -webkit-box-shadow: 0px 7px 10px -3px rgba(22, 22, 22, 0.75);
     -moz-box-shadow: 0px 7px 10px -3px rgba(22, 22, 22, 0.75);
     box-shadow: 0px 7px 10px -3px rgba(22, 22, 22, 0.75);
-    transition: 0.2s;
+    transition: 0.5s;
 }
 
 .btn:hover{
